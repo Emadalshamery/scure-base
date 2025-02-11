@@ -6,7 +6,7 @@
   "type": "module",
   "devDependencies": {
     "@scure/base": "file:..",
-    "esbuild": "0.20.1"
+    "esbuild": "0.25.0"
   },
   "scripts": {
     "build:release": "npx esbuild --minify --bundle input.js --outfile=`npx jsbt outfile` --global-name=`npx jsbt global`"
